@@ -1,0 +1,158 @@
+.MovieItemDetailsContainer {
+  background-color: #181818;
+}
+.MovieItemDetailsSection {
+  min-height: 60vh;
+  margin-top: 0px;
+}
+.moreLikeImage {
+  width: 255px;
+  height: 170px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.MovieItemDetailsSection1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 30px;
+}
+.MovieItemDetailsSection2 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.MovieItemDetailsSection3 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.movieItem-Main-heading {
+  color: #ffffff;
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 22px;
+}
+.movieItem-paraDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 16px;
+}
+.para2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.description {
+  color: #ffffff;
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 14px;
+}
+.movieItemplayButton {
+  color: #0d0d0d;
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.MovieItemDetailsSection2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.setion2paraHead {
+  color: #94a3b8;
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 18px;
+}
+.section2paratext {
+  color: #ffffff;
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 16px;
+}
+.MoreLikeSecrtion3head {
+  color: #ffffff;
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 24px;
+}
+.MoreLikeThisContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.loader-moviesBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+/* ******************************************************************************************************** */
+
+@media screen and (max-width: 856px) {
+  .MovieItemDetailsSection {
+    min-height: 60vh;
+  }
+  .movieItem-Main-heading {
+    color: #ffffff;
+    font-family: HK Grotest;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .movieItem-paraDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    font-family: HK Grotest;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .setion2paraHead {
+    color: #94a3b8;
+    font-family: HK Grotest;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .section2paratext {
+    color: #ffffff;
+    font-family: HK Grotest;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}
+
+/* *********************************************************************************** */
+@media screen and (max-width: 576px) {
+  .MovieItemDetailsSection {
+    min-height: 60vh;
+  }
+  .MovieItemDetailsSection2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .moreLikeImage {
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+}

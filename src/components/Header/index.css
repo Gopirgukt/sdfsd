@@ -1,0 +1,106 @@
+.HeaderContainer {
+  background-color: #131313;
+  opacity: 80%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.MenuIconButton {
+  display: none;
+}
+
+.HeaderUl {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-family: Hk Grotest;
+  font-weight: bold;
+  font-size: 16px;
+}
+.HeaderUlText {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-family: Hk Grotest;
+  font-weight: bold;
+  font-size: 16px;
+}
+.HeaderSection1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.HeaderHome,
+.HeaderPopular,
+.HeaderSearch {
+  color: #ffffff;
+}
+
+.HeaderSearch,
+.HeaderHome {
+  margin-right: 20px;
+}
+.SearchButton {
+  border: none;
+  background-color: transparent;
+}
+
+.HeaderSmallLinks {
+  display: none;
+}
+.HeaderImageLogo {
+  width: 50%;
+}
+
+@media screen and (max-width: 576px) {
+  .MenuIconButton {
+    display: block;
+  }
+  .HeaderContainerSmall {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .HeaderSmallLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  .HeaderUlSmall {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-family: Hk Grotest;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+  }
+  .AccountSectionBig {
+    display: none;
+  }
+  .HeaderUlText {
+    display: none;
+  }
+}

@@ -1,0 +1,208 @@
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #181818;
+}
+.Trendingcontainer {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.HomeSection {
+  min-height: 60vh;
+}
+.HomeSection1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 40px;
+}
+
+.Home-main-heading {
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.Home-description {
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  width: 80vh;
+}
+.PlayButton {
+  border: none;
+  background-color: #ffffff;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+.HomeSectionBody {
+  display: flex;
+  flex-direction: column;
+}
+.HomeBodySection1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #ffffff;
+}
+.HomeBodySection2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #ffffff;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+}
+
+.loader-HomeSection1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+}
+.loader-HomeBodySection1 {
+  color: #ffffff;
+  margin-bottom: 40px;
+  height: 20vh;
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-HomeBodySection2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #ffffff;
+  margin-bottom: 40px;
+  height: 20vh;
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loader-h1 {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #ffffff;
+  font-family: HK Grotest;
+  font-size: 20px;
+  font-weight: bold;
+}
+.tryButtonFailure {
+  font-family: HK Grotest;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  background-color: #ffffff;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  color: #0d0d0d;
+}
+.paraFailure {
+  font-family: HK Grotest;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.logo-image {
+  width: 254px;
+  height: 170px;
+  border-radius: 5px;
+}
+.HomeTrending {
+  color: #ffffff;
+  font-family: HK Grotest;
+  font-size: 20px;
+  font-weight: bold;
+}
+.HomeOriginal {
+  color: #ffffff;
+  font-family: HK Grotest;
+  font-size: 20px;
+  font-weight: bold;
+}
+.loader-container-original {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  height: 20vh;
+}
+
+/* ******************************************************************************************************************** */
+
+@media screen and (max-width: 856px) {
+  .logo-image {
+    width: 120px;
+    height: 90px;
+    border-radius: 5px;
+  }
+}
+
+/* ************************************************************************************************************************ */
+
+@media screen and (max-width: 576px) {
+  .HomeSection1 {
+    margin-top: 50px;
+    margin-left: 9%;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .Home-main-heading {
+    font-family: HK Grotest;
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+  .Home-description {
+    font-family: HK Grotest;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    width: 80%;
+  }
+  .HomeBodySection1 {
+    color: #ffffff;
+  }
+  .HomeBodySection2 {
+    color: #ffffff;
+  }
+  .HomeContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    background-color: #181818;
+  }
+  .logo-image {
+    width: 100px;
+    height: 90px;
+    border-radius: 5px;
+  }
+}
+
+/* ******************************************************************************************************************** */

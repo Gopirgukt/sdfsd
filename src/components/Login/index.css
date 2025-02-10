@@ -1,0 +1,149 @@
+.LoginContainer {
+  background-image: url('https://res.cloudinary.com/dfgdjrtc1/image/upload/v1734848353/netfilx_1_jqxq4w.png');
+  background-size: cover;
+  min-height: 100vh;
+  padding-left: 165px;
+  padding-right: 165px;
+}
+.LoginHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 15vh;
+}
+.LoginLogo {
+  width: 180px;
+}
+.LoginBody {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FormContainer {
+  background-color: #131313;
+  opacity: 80%;
+  width: 456px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form-main-heading {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  font-size: 32px;
+  color: #ffffff;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+label {
+  width: 100%;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: HK Grotesk;
+  margin-bottom: 5px;
+}
+.input,
+.password {
+  width: 100%;
+  height: 40px;
+  background-color: #333333;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.errorMsg {
+  width: 100%;
+  color: #e50914;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: HK Grotesk;
+  margin-bottom: 10px;
+}
+.LoginButton {
+  width: 100%;
+  height: 37px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e50914;
+  color: #ffffff;
+}
+
+/* **************************************************************************************************************** */
+
+@media screen and (max-width: 576px) {
+  .LoginContainer {
+    background-image: none;
+    background-color: #000000;
+    min-height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .LoginHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* min-height: 10vh; */
+  }
+  .LoginBody {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+  .FormContainer {
+    background-color: transparent;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-main-heading {
+    font-family: HK Grotesk;
+    font-weight: bold;
+    font-size: 32px;
+    color: #ffffff;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  label {
+    width: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: HK Grotesk;
+    margin-bottom: 5px;
+  }
+  .LoginLogo {
+    width: 150px;
+    height: 52px;
+  }
+  .LoginBody {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

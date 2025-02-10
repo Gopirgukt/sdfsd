@@ -1,0 +1,122 @@
+.SearchContainer {
+  background-color: #181818;
+  min-height: 100vh;
+}
+.SearchInputDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px inset #ffffff;
+  margin-right: 20px;
+}
+.SearchBodyContainerLoading {
+  min-height: 87vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.Search-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 13px;
+}
+.SearchBodyContainerul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  list-style: none;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.SearchBodyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+input {
+  padding: 7px;
+  background-color: transparent;
+  color: #ffffff;
+}
+.SearchedImage {
+  width: 230px;
+  height: 125px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.paranotFind {
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+}
+.HeaderImageLogo {
+  width: 180px;
+  height: 50px;
+}
+.SearchButton {
+  cursor: pointer;
+}
+.MenuIconButton {
+  cursor: pointer;
+}
+
+/* ***************************************************************************************************** */
+
+@media screen and (max-width: 576px) {
+  .SearchedImage {
+    width: 100px;
+    height: 90px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  .SearchBodyContainerul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    list-style: none;
+  }
+  .HeaderImageLogo {
+    width: 60px;
+    height: 50px;
+  }
+  .SearchInputDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px inset #ffffff;
+    margin-right: 10px;
+  }
+  input {
+    padding: 7px;
+    background-color: transparent;
+    color: #ffffff;
+    width: 120px;
+  }
+  .failureLogo {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+/* ***************************************************************************************************** */

@@ -1,0 +1,49 @@
+.NotFoundContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://res.cloudinary.com/dfgdjrtc1/image/upload/v1734967843/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_rfdymh.png');
+  background-size: cover;
+}
+
+.NotFound-Main-Heading {
+  width: 686px;
+  height: 125px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: HK Grotesk;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 125.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.NotFound-Description {
+  width: 610px;
+  height: 62px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31.27px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.HomeButton {
+  width: 127px;
+  height: 48px;
+  gap: 0px;
+  border-radius: 3px;
+  border: none;
+  opacity: 0px;
+  background-color: #ffffff;
+}

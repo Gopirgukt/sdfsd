@@ -1,0 +1,21 @@
+.FooterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  padding-top: 20px;
+}
+.iconsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+.text-footer {
+  color: #ffffff;
+  font-family: HK Grotest;
+  font-weight: bold;
+  font-size: 12px;
+}
